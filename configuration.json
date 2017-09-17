@@ -1,0 +1,13 @@
+{
+    "directory": "test",
+    "files": {
+        "texto.voc": {
+            "uuid": "223423423423432",
+            "expression": "([\\s\\S]*uuid[\\s\\S]*\")(.*)(\"[\\s\\S]*)"
+        },
+        "texto.bom": {
+            "uuid": "768678768678678",
+            "expression": "([\\s\\S]*<uuid>)(.*)(</uuid>[\\s\\S]*)"
+        }
+    }
+}
